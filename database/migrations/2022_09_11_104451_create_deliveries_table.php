@@ -16,7 +16,7 @@ class CreateDeliveriesTable extends Migration
         Schema::create('deliveries', function (Blueprint $table) {
             $table->id();
             $table->integer('delivery_id');
-            $table->integer('order_id');
+            $table->foreignId('order_id')->constrained('orders');
             $table->string('delivery_address');
             $table->timestamps();
         });

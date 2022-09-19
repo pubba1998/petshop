@@ -1,0 +1,134 @@
+[
+    {
+      "Items_id":1,
+      "Items_name": "Whiskas",
+      "Items_quantity":1,
+      "Items_price":30,
+      "animals_id":1
+
+    },
+    
+
+    {
+        "Items_id":2,
+        "Items_name": "Drools",
+        "Items_quantity":1,
+        "Items_price":20,
+        "animals_id":1
+        
+      },
+      {
+        "Items_id":3,
+        "Items_name": "Meow Mix",
+        "Items_quantity":1,
+        "Items_price":20,
+        "animals_id":1
+  
+      },
+      {
+        "Items_id":4,
+        "Items_name": "One",
+        "Items_quantity":1,
+        "Items_price":30,
+        "animals_id":1
+  
+      },
+      {
+        "Items_id":5,
+        "Items_name": "Bakers",
+        "Items_quantity":1,
+        "Items_price":30,
+        "animals_id":2
+  
+      },
+      {
+        "Items_id":6,
+        "Items_name": "Adult Dog",
+        "Items_quantity":1,
+        "Items_price":20,
+        "animals_id":2
+  
+      },
+      {
+        "Items_id":7,
+        "Items_name": "Wilderness",
+        "Items_quantity":1,
+        "Items_price":20,
+        "animals_id":2
+  
+      },
+      {
+        "Items_id":8,
+        "Items_name": "Baby Blue",
+        "Items_quantity":1,
+        "Items_price":25,
+        "animals_id":2
+  
+      },
+      {
+        "Items_id":9,
+        "Items_name": "Wild Bird",
+        "Items_quantity":1,
+        "Items_price":25,
+        "animals_id":3
+  
+      },
+      {
+        "Items_id":10,
+        "Items_name": "Bonanza",
+        "Items_quantity":1,
+        "Items_price":15,
+        "animals_id":3
+  
+      },
+      {
+        "Items_id":11,
+        "Items_name": "Peckish",
+        "Items_quantity":1,
+        "Items_price":15,
+        "animals_id":3
+  
+      },
+      {
+        "Items_id":12,
+        "Items_name": "Mazuri",
+        "Items_quantity":1,
+        "Items_price":15,
+        "animals_id":3
+  
+      },
+      {
+        "Items_id":13,
+        "Items_name": "Chi Fish Food",
+        "Items_quantity":1,
+        "Items_price":5,
+        "animals_id":4
+  
+      },
+      {
+        "Items_id":14,
+        "Items_name": "Diomands",
+        "Items_quantity":1,
+        "Items_price":20,
+        "animals_id":4
+  
+      },
+      {
+        "Items_id":13,
+        "Items_name": "Tera Bits",
+        "Items_quantity":1,
+        "Items_price":20,
+        "animals_id":4
+  
+      },
+      {
+        "Items_id":13,
+        "Items_name": "Goald Fish",
+        "Items_quantity":1,
+        "Items_price":15,
+        "animals_id":4
+  
+      }
+
+
+  ]

@@ -1,0 +1,39 @@
+[
+    {
+      "customers_id":1,
+      "customers_name": "Pubudu",
+      "customers_email":"coolpubba@gmail.com",
+      "customers_phone":2041755
+    },
+    {
+        "customers_id":2,
+      "customers_name": "Dasun",
+      "customers_email":"dasun@gmail.com",
+      "customers_phone":22747442
+    },
+
+    {
+        "customers_id":3,
+      "customers_name": "Shara",
+      "customers_email":"shara@icloud.com",
+      "customers_phone":1231321
+    },
+    {
+        "customers_id":4,
+        "customers_name": "Ricky",
+        "customers_email":"riccy@gmail.com",
+        "customers_phone":3214654
+      },
+      {
+        "customers_id":5,
+        "customers_name": "Sahan",
+        "customers_email":"sahan@facebook.com",
+        "customers_phone":64204712
+      },
+      {
+        "customers_id":6,
+        "customers_name": "Kanthi",
+        "customers_email":"kanthi@ms.com",
+        "customers_phone":3214654
+      }
+  ]

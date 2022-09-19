@@ -1,0 +1,25 @@
+[
+    {
+      "order_id":1,
+      "customers_id":4,
+      "items_id":6
+      
+    },
+    {
+        "order_id":2,
+        "customers_id":2,
+        "items_id":2
+    },
+
+    {
+        "order_id":1,
+        "customers_id":2,
+        "items_id":5
+    },
+    {
+         "order_id":1,
+        "customers_id":3,
+        "items_id":3
+     }
+      
+  ]

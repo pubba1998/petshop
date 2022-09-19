@@ -19,8 +19,7 @@ class CreateItemsTable extends Migration
             $table->string('Items_name');
             $table->integer('Items_quantity');
             $table->integer('Items_price');
-            $table->integer('animals_id');
-
+            $table->foreignId('animals_id')->constrained('animals');
             $table->timestamps();
         });
     }

@@ -1,15 +1,20 @@
 [
     {
-      "animals_id":2,
+      "animals_id":1,
       "animals_name": "Cat"
      
     },
     {
-        "animals_id":3,
-        "animals_name": "Fish"
+      "animals_id":2,
+      "animals_name": "Dog"
+     
     },
     {
-        "animals_id":2,
+        "animals_id":3,
         "animals_name": "Bird"
+    },
+    {
+        "animals_id":4,
+        "animals_name": "Fish"
     }   
   ]
