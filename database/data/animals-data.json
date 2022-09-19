@@ -1,0 +1,15 @@
+[
+    {
+      "animals_id":2,
+      "animals_name": "Cat"
+     
+    },
+    {
+        "animals_id":3,
+        "animals_name": "Fish"
+    },
+    {
+        "animals_id":2,
+        "animals_name": "Bird"
+    }   
+  ]
