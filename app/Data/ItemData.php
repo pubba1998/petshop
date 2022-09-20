@@ -4,17 +4,21 @@ class ItemsData
 {
 
   public function __construct(
-     $delivery_id,  $order_id, $delivery_address
+     $Items_id,  $Items_name, $Items_quantity,  $Items_price, $animals_id
   ) {
-    $this -> delivery_id = $delivery_id;
-    $this -> order_id = $order_id;
-    $this -> delivery_address = $delivery_address;
-    
+    $this -> Items_id = $Items_id;
+    $this -> Items_name = $Items_name;
+    $this -> Items_quantity = $Items_quantity;
+    $this -> Items_price = $Items_price;
+    $this -> animals_id = $animals_id;
   }
 
-  public $delivery_id;
-  public $order_id;
-  public $delivery_address;
+  public $Items_id;
+  public $Items_name;
+  public $Items_quantity;
+  public $Items_price;
+  public $animals_id;
+
  
 }
 

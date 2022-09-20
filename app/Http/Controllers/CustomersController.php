@@ -14,7 +14,8 @@ class CustomersController extends Controller
      */
     public function index()
     {
-        return customers::all();
+        return customers::select('customers_id', 'customers_name','customers_email','customers_phone')->get();
+        
         //
     }
 

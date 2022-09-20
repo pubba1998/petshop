@@ -14,7 +14,16 @@ class ItemsController extends Controller
      */
     public function index()
     {
-        return items::all();
+        return items::select('Items_id', 'Items_name','Items_quantity','Items_price','animals_id')->get();
+    }
+
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function create()
+    {
         //
     }
 
@@ -27,7 +36,6 @@ class ItemsController extends Controller
     public function store(Request $request)
     {
         return items::create($request->all());
-        //
     }
 
     /**
@@ -39,6 +47,16 @@ class ItemsController extends Controller
     public function show($id)
     {
         return items::find($id);
+    }
+
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function edit($id)
+    {
         //
     }
 
@@ -54,7 +72,6 @@ class ItemsController extends Controller
         $items = items::find($id);
         $items->update($request->all());
         return $items;
-        //
     }
 
     /**
@@ -66,6 +83,5 @@ class ItemsController extends Controller
     public function destroy($id)
     {
         return items::destroy($id);
-        //
     }
 }
