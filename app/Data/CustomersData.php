@@ -1,6 +1,6 @@
 <?php 
 
-class CustomerData
+class CustomersData
 {
 
   public function __construct(

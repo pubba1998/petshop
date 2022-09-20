@@ -14,7 +14,7 @@ class OrderController extends Controller
      */
     public function index()
     {
-        return order::all();
+        return order::select('order_id', 'customers_id','items_id')->get();
         //
     }
 

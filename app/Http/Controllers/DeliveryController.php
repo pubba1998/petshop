@@ -14,7 +14,7 @@ class DeliveryController extends Controller
      */
     public function index()
     {
-        return delivery::all();
+        return delivery::select('delivery_id', 'order_id','delivery_address')->get();
         //
     }
 

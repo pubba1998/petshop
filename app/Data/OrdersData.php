@@ -1,7 +1,7 @@
 
 <?php 
 
-class OrderData
+class OrdersData
 {
 
   public function __construct(

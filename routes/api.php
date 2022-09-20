@@ -3,6 +3,7 @@
    use App\Http\Controllers\CustomersController;
    use App\Http\Controllers\DeliveryController;
    use App\Http\Controllers\OrderController;
+   use App\Http\Controllers\ItemsController;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
